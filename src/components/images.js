@@ -40,6 +40,27 @@ export const Image = ({ image, ...props }) => {
           }
         }
       }
+      dbe: file(relativePath: { eq: "images/dbe.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      sba: file(relativePath: { eq: "images/sba.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      aldot: file(relativePath: { eq: "images/aldot.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `);
 

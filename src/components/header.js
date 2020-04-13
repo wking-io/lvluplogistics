@@ -1,26 +1,10 @@
 import { Link } from 'gatsby';
-import React, { useState, useEffect } from 'react';
-import { Menu, MenuList, MenuItem, MenuButton, MenuLink } from '@reach/menu-button';
-import VisuallyHidden from '@reach/visually-hidden';
+import React from 'react';
 
 import { Image } from './images';
-import { ContactIcon, InstagramIcon, FacebookIcon } from './icons';
-
-function useWindowWidth() {
-  const [ isMobile, setSize ] = useState(typeof window != 'undefined' && window.innerWidth < 768);
-
-  useEffect(() => {
-    const handleResize = () => setSize(typeof window != 'undefined' && window.innerWidth < 768);
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  });
-  return isMobile;
-}
+import { ContactIcon } from './icons';
 
 const Header = ({ label }) => {
-  const isMobile = useWindowWidth();
   return (
     <header className="flex items-center w-full px-8 md:px-16 py-2 md:py-4 bg-white">
       <Link
