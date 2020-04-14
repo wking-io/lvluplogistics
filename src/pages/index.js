@@ -239,7 +239,7 @@ const IndexPage = () => {
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-none">Contact Us</h3>
             <div className="flex flex-row flex-wrap justify-between lg:justify-start mt-6 -ml-6">
               <p className="ml-6 mt-2">
-                <strong className="mr-4">Office:</strong>
+                <strong className="mr-4">Satellite Office:</strong>
                 770-301-4683
               </p>
               <p className="ml-6 mt-2">
