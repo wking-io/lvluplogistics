@@ -6,7 +6,7 @@ import VisuallyHidden from '@reach/visually-hidden';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { InstagramIcon, QuoteIcon } from '../components/icons';
+import { InstagramIcon, QuoteIcon, CheckIcon } from '../components/icons';
 import { Image } from '../components/images';
 import { Field, Textarea } from '../components/form';
 
@@ -101,16 +101,48 @@ const IndexPage = () => {
             </p>
           </div>
           <div className="flex-1 mt-8 md:mt-0">
-            <ul className="bullet-wrapper mt-6 text-sm">
-              <li className="bullet">Owned by Degreed Engineers</li>
-              <li className="bullet">Six Sigma Black Belt Certified</li>
-              <li className="bullet">Project Management Certified</li>
-              <li className="bullet">Finance Professionals</li>
-              <li className="bullet">DBE Certified</li>
-              <li className="bullet">SBA 8(a) Certified</li>
-              <li className="bullet">Registered Minority Owned Business</li>
-              <li className="bullet">Access to over 30 years experience</li>
-            </ul>
+            <div className="flex flex-wrap mt-6 text-sm lg:text-base">
+              <div className="bullet-wrapper flex md:justify-center">
+                <div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>Owned by Degreed Engineers</p>
+                  </div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>Six Sigma Black Belt Certified</p>
+                  </div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>Project Management Certified</p>
+                  </div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>Finance Professionals</p>
+                  </div>
+                </div>
+              </div>
+              <div className="bullet-wrapper flex md:justify-center">
+                <div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>DBE Certified</p>
+                  </div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>SBA 8(a) Certified</p>
+                  </div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>Registered Minority Owned Business</p>
+                  </div>
+                  <div className="bullet">
+                    <CheckIcon className="w-4 h-auto text-primary pb-1 mr-2" />
+                    <p>Access to over 30 years experience</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center mt-16">
