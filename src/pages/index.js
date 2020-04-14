@@ -127,7 +127,7 @@ const IndexPage = () => {
           <h3 className="text-4xl font-bold tracking-tight mb-4">About us</h3>
           <p className="text-grey-500 leading-relaxed">
             LVL UP Logistics is a company headquartered in Birmingham, AL. Our #1 commitment to our customer is to move
-            their fright in a timely and cost efficient way throughout the southeast region of the United States.
+            their freight in a timely and cost efficient way throughout the southeast region of the United States.
           </p>
           <Image image="about" className="hidden md:block mt-16 w-full h-64" />
           <ul className="flex flex-col md:flex-row md:-mx-4 mt-6 md:mt-12">
