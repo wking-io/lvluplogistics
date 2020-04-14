@@ -287,7 +287,7 @@ const IndexPage = () => {
               <Textarea name="message" label="Message" value={message} update={updateMessage} dark />
               <input
                 type="submit"
-                className=" py-4 btn btn--primary-darkproduct-detail mt-8 w-full"
+                className=" py-4 btn btn--primary-dark mt-8 w-full"
                 value="Send Message"
                 disabled={!isValid}
               />
