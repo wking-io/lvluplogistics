@@ -66,52 +66,55 @@ const IndexPage = () => {
       </section>
       <section className="py-32 bg-white">
         <div className="w-5/6 max-w-4xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between md:items-center">
+          <div className="flex flex-col md:flex-row-reverse justify-between md:items-center">
             <Image
               image="trusted"
-              className="w-full md:w-2/5 h-auto flex-shrink-0 md:mr-16"
+              className="w-full md:w-2/5 h-auto flex-shrink-0 md:ml-16"
               imgStyle={{ width: '100%', height: 'auto' }}
             />
             <div className="flex-1 mt-8 md:mt-0">
               <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Trusted Delivery</h3>
               <p className="text-grey-500 leading-relaxed">
-                We thrive under pressure! Whether Hot Shot or Same Day Delivery, you can be confident our fleet of 26
-                foot box trucks will meet any emergency need when delivering your product.
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row-reverse justify-between md:items-center mt-12">
-            <Image
-              image="dedicated"
-              className="w-full md:w-2/5 h-auto flex-shrink-0 md:ml-16"
-              imgStyle={{ width: '100%', height: 'auto' }}
-            />
-            <div className="flex-1 mt-8 md:mt-0">
-              <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Dedicated Resource</h3>
-              <p className="text-grey-500 leading-relaxed">
-                Need someone you can count on? Our skilled team of Operation Managers can assign your Daily, Weekly, or
-                Monthly LTL routes a dedicated 26 Foot Box Truck.
+                We thrive under pressure! Whether a dedicated lane or same day delivery, you can be confident in our
+                fleet of trucks to meet all of your scheduled or emergency needs while delivering your products.
               </p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center mt-12">
             <Image
-              image="winning"
+              image="dedicated"
               className="w-full md:w-2/5 h-auto flex-shrink-0 md:mr-16"
               imgStyle={{ width: '100%', height: 'auto' }}
             />
             <div className="flex-1 mt-8 md:mt-0">
-              <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Join A Winning Team</h3>
+              <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Dedicated Resource</h3>
               <p className="text-grey-500 leading-relaxed">
-                Looking To Partner? LVL UP Logistics believes that how you treat people has a direct impact on the
-                success of your business. We treat our customers, our partners, and most importantly our drivers with
-                that focus in mind. If you have your own Box Truck and want to Join a Winning Team, Click below to find
-                out how you can take your business to the next level.
+                Need someone you can count on? Our skilled team of operation managers can assign your daily, weekly, or
+                monthly routes to dedicated trucks in our fleet. We also use our team of degreed engineers and analysts
+                to determine the most cost efficient and safest way to move your product.
               </p>
             </div>
           </div>
+          <div className="md:text-center mt-16">
+            <h3 className="text-3xl md:text-4xl font-bold tracking-tight">Join A Winning Team</h3>
+            <p className="text-grey-500 leading-relaxed">
+              At LVL UP we believe in continuous improvement. Uniting with us is partnering with a company:
+            </p>
+          </div>
+          <div className="flex-1 mt-8 md:mt-0">
+            <ul className="bullet-wrapper mt-6 text-sm">
+              <li className="bullet">Owned by Degreed Engineers</li>
+              <li className="bullet">Six Sigma Black Belt Certified</li>
+              <li className="bullet">Project Management Certified</li>
+              <li className="bullet">Finance Professionals</li>
+              <li className="bullet">DBE Certified</li>
+              <li className="bullet">SBA 8(a) Certified</li>
+              <li className="bullet">Registered Minority Owned Business</li>
+              <li className="bullet">Access to over 30 years experience</li>
+            </ul>
+          </div>
         </div>
-        <div className="flex items-center justify-center mt-16 lg:mt-32">
+        <div className="flex items-center justify-center mt-16">
           <Link
             to="/#contact"
             className="inline-block px-16 py-4 bg-primary hover:bg-primary-dark text-lg font-bold uppercase text-white tracking-tight"
@@ -123,24 +126,24 @@ const IndexPage = () => {
       <section id="about" className="bg-white pb-48">
         <div className="w-5/6 max-w-4xl mx-auto">
           <h3 className="text-4xl font-bold tracking-tight mb-4">About us</h3>
-          <p className="text-xl text-grey-500 leading-relaxed">
-            LVL UP Logistics is a company headquartered in Birmingham, AL. We focus on 100% timely, efficient and
-            quality delivery of LTL freight for our valued customers across the United States.
+          <p className="text-grey-500 leading-relaxed">
+            LVL UP Logistics is a company headquartered in Birmingham, AL. Our #1 commitment to our customer is to move
+            their fright in a timely and cost efficient way throughout the southeast region of the United States.
           </p>
           <Image image="about" className="hidden md:block mt-16 w-full h-64" />
           <ul className="flex flex-col md:flex-row md:-mx-4 mt-6 md:mt-12">
             <li className="product-detail">
               <p className="text-grey-500 leading-relaxed md:mt-4">
                 Currently, there is a shortage of trucks/drivers across the country. LVL UP has helped reduce that
-                shortage by providing 26ft box trucks that allow companies to ship goods in a fast, safe, and reliable
-                fashion.
+                shortage by providing a fleet trucks, and reliable drivers that allow companies to ship goods in a fast,
+                safe, and reliable fashion.
               </p>
             </li>
             <li className="product-detail mt-4 md:mt-0">
               <p className="text-grey-500 leading-relaxed mt-4">
                 "Leaders Win Through Logistics." We understand how much goes into the day to day operation of running
-                your business. A company ran by degreed engineers, Our NUMBER 1 Goal is to make sure LVL UP is a partner
-                that you are confident will help you take your business to the next Level.
+                your business. Our goal at LVL UP is to simplify the logistics branch of your operations, so that you
+                can focus on other items to help take your business to the next level.
               </p>
             </li>
           </ul>
@@ -172,8 +175,8 @@ const IndexPage = () => {
               <blockquote class="flex flex-col items-start h-full">
                 <QuoteIcon className="text-grey-300 h-12 pb-1 w-auto" />
                 <p className="text-grey-700 leading-relaxed mt-6 flex-1">
-                  Michael Banks is a driver for LVL UP who performs beyond expectations everytime. It is always a
-                  pleasure to work with LVL UP Logistics when their team is always as dedicated as their drivers.
+                  Michael Banks is a driver for LVL UP who performs beyond expectations every time. It is always a
+                  <strong>pleasure</strong> to work with LVL UP and their entire team.
                 </p>
                 <div className="h-px bg-grey-300 w-24 mt-4" />
                 <p class="flex items-center justify-between mt-4 w-full">
@@ -214,16 +217,16 @@ const IndexPage = () => {
 
       <section id="contact" className="bg-white py-24 md:py-32">
         <div className="w-5/6 max-w-6xl mx-auto">
-          <div className="flex justify-between -mx-8">
+          <div className="flex flex-col md:flex-row justify-between -mx-8">
             <div className="flex-1 mx-8 flex flex-col items-center text-center">
               <Image image="dbe" className="w-full h-32" imgStyle={{ objectFit: 'contain' }} />
               <p className="uppercase font-bold mt-6">Disadvantaged Business Enterprise</p>
             </div>
-            <div className="flex-1 mx-8 flex flex-col items-center text-center">
+            <div className="flex-1 mt-12 md:mt-0 mx-8 flex flex-col items-center text-center">
               <Image image="sba" className="w-full h-32" imgStyle={{ objectFit: 'contain' }} />
               <p className="uppercase font-bold mt-6">SBA 8a Certified</p>
             </div>
-            <div className="flex-1 mx-8 flex flex-col items-center text-center">
+            <div className="flex-1 mt-12 md:mt-0 mx-8 flex flex-col items-center text-center">
               <Image image="aldot" className="w-full h-32" imgStyle={{ objectFit: 'contain' }} />
               <p className="uppercase font-bold mt-6">Minority-Owned Business in the State of Alabama</p>
             </div>

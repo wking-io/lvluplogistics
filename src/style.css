@@ -236,12 +236,12 @@ html {
 }
 
 .hero {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 66px);
 }
 
 @screen md {
   .hero {
-    height: calc(100vh - 104px);
+    height: calc(100vh - 133px);
   }
 }
 
@@ -296,6 +296,16 @@ html {
     rgba(theme('colors.primary.dark'), 0.75) 40%,
     rgba(theme('colors.primary.default'), 0.9)
   );
+}
+
+.bullet-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: theme('spacing.4');
+}
+
+.bullet {
+  @apply py-1 px-3 border border-solid border-grey-500 text-black rounded;
 }
 
 @responsive {
