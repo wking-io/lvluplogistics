@@ -13,7 +13,7 @@ const ContactThankYouPage = () => (
       </h2>
       <p className="mb-6">One of our team members will be in touch with you shortly.</p>
       <div className="flex items-center justify-center flex-col md:flex-row">
-        <Link to="/contact" className="btn btn--primary w-full md:w-auto mb-4 md:mb-0 md:mr-8">
+        <Link to="/" className="btn btn--primary w-full md:w-auto mb-4 md:mb-0 md:mr-8">
           Go to homepage
         </Link>
       </div>
