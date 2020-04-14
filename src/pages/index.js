@@ -10,8 +10,7 @@ import { InstagramIcon, QuoteIcon } from '../components/icons';
 import { Image } from '../components/images';
 import { Field, Textarea } from '../components/form';
 
-const verify = ({ name, phone, email, message }) =>
-  validate(email) && [ message, name, phone ].every((field) => field.length > 0);
+const verify = ({ name, email, message }) => validate(email) && [ message, name ].every((field) => field.length > 0);
 
 const IndexPage = () => {
   const [ name, updateName ] = useState('');
