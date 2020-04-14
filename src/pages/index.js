@@ -175,7 +175,7 @@ const IndexPage = () => {
               <blockquote class="flex flex-col items-start h-full">
                 <QuoteIcon className="text-grey-300 h-12 pb-1 w-auto" />
                 <p className="text-grey-700 leading-relaxed mt-6 flex-1">
-                  Michael Banks is a driver for LVL UP who performs beyond expectations every time. It is always a
+                  Michael Banks is a driver for LVL UP who performs beyond expectations every time. It is always a{' '}
                   <strong>pleasure</strong> to work with LVL UP and their entire team.
                 </p>
                 <div className="h-px bg-grey-300 w-24 mt-4" />
